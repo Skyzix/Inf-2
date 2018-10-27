@@ -11,15 +11,15 @@ int main() {
     cout << nr << endl;
     if(nr>64&&nr<91)
     {
-       if(nr>=65&&nr<=67)
+       if(nr<=67)
        {
-                 nr=nr+23;
-                 cout <<  (char)nr;
+          nr=nr+23;
+          cout <<  (char)nr;
        }
        else
        {
-                nr=nr-3;
-                cout <<(char)nr;       
+          nr=nr-3;
+          cout <<(char)nr;       
        }
        
     }
